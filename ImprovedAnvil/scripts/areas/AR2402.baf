@@ -54,7 +54,7 @@ END
 
 IF
   Global("Iaoldsquijob","GLOBAL",2)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Dead("S!avatar") //
 THEN
   RESPONSE #100

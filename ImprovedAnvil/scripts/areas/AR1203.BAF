@@ -281,7 +281,7 @@ END
 IF
   InMyArea(Player1)
   Global("IADruidPlot","GLOBAL",11)
-  Global("Chapter","GLOBAL",6)
+  Global("Chapter","GLOBAL",%bg2_chapter_6%)
   Global("Iaonce","AR1203",0)
 THEN
   RESPONSE #100
@@ -293,7 +293,7 @@ END
 IF
   InMyArea(Player1)
   Global("IADruidPlot","GLOBAL",11)
-  Global("Chapter","GLOBAL",6)
+  Global("Chapter","GLOBAL",%bg2_chapter_6%)
   Global("Iaonce","AR1203",1)
   PartyHasItem("S!MISC72")
   Exists("firkra02")
@@ -308,7 +308,7 @@ END
 IF
   InMyArea(Player1)
   Global("IADruidPlot","GLOBAL",11)
-  Global("Chapter","GLOBAL",6)
+  Global("Chapter","GLOBAL",%bg2_chapter_6%)
   PartyHasItem("S!MISC72")
   Dead("firkra02")
   CombatCounter(0)

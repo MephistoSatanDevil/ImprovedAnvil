@@ -97,7 +97,7 @@ IF
   Allegiance(Myself,ENEMY)
   InMyArea(Player1)
   See(NearestEnemyOf(Myself))
-  !Global("Chapter","GLOBAL",5)
+  !Global("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("IAchaptercheck","LOCALS",0)
 THEN
   RESPONSE #100

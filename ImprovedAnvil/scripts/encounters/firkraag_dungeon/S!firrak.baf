@@ -108,7 +108,7 @@ IF
   Global("Iapcastts","GLOBAL",0)
   Detect([PC])
   Global("Iatreasure","LOCALS",0)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
   XPLT(Player1,2350000)
 THEN
   RESPONSE #100

@@ -28,7 +28,7 @@ IF
   Global("Iaexit","AR2210",2)
   Dead("S!efree2")
   InMyArea(Player1)
-  GlobalLT("Chapter","GLOBAL",6)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
 THEN
   RESPONSE #100
     SetGlobal("Iaexit","AR2210",3)

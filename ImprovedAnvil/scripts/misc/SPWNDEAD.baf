@@ -83,8 +83,8 @@ END
 IF
   XPGT(Player1,3049999)
   OR(2)
-   GlobalLT("Chapter","GLOBAL",4)
-   GlobalGT("Chapter","GLOBAL",5)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+   GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Entered([ANYONE])
 THEN
   RESPONSE #100
@@ -97,8 +97,8 @@ END
 
 IF
   XPGT(Player1,3049999)
-  GlobalGT("Chapter","GLOBAL",3)
-  GlobalLT("Chapter","GLOBAL",6)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
   Entered([ANYONE])
 THEN
   RESPONSE #100

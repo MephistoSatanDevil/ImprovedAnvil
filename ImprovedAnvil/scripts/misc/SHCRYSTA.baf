@@ -27,7 +27,7 @@ IF
   Range(LastTrigger,10)
   Global("Clicked","AR1401",2)
   Global("Iaoldsquijob","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   PartyHasItem("S!misc46")
 THEN
   RESPONSE #100
@@ -42,7 +42,7 @@ IF
   Global("Clicked","AR1401",2)
   OR(2)
    GlobalLT("Iaoldsquijob","GLOBAL",3)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
 THEN
   RESPONSE #100
     DisplayString(Myself,7672)  //
@@ -53,7 +53,7 @@ IF
   Range(LastTrigger,10)
   Global("Clicked","AR1401",2)
   Global("Iaoldsquijob","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   !PartyHasItem("S!misc46")
 THEN
   RESPONSE #100
@@ -65,7 +65,7 @@ IF
   Range(LastTrigger,10)
   Global("Clicked","AR1401",2)
   GlobalGT("Iaoldsquijob","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Class(Player1,RANGER_ALL)
   !Class(Player1,CLERIC_ALL)
   Kit(Player1,VAGRANT)
@@ -81,7 +81,7 @@ IF
   Range(LastTrigger,10)
   Global("Clicked","AR1401",2)
   GlobalGT("Iaoldsquijob","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Class(Player1,RANGER_ALL)
   !Class(Player1,CLERIC_ALL)
   Kit(Player1,VAGRANT)
@@ -98,7 +98,7 @@ IF
   Range(LastTrigger,10)
   Global("Clicked","AR1401",2)
   GlobalGT("Iaoldsquijob","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Class(Player1,RANGER_ALL)
   !Class(Player1,CLERIC_ALL)
   Kit(Player1,VAGRANT)

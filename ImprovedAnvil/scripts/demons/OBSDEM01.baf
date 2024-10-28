@@ -71,7 +71,7 @@ IF
   Detect([PC])
   Global("summon","LOCALS",0)
   XPGT(Player1,2349999)
-  GlobalLT("Chapter","GLOBAL",6)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
 THEN
   RESPONSE #100
     SetInterrupt(FALSE)
@@ -95,7 +95,7 @@ IF
   Detect([PC])
   Global("summon","LOCALS",0)
   XPGT(Player1,2349999)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 THEN
   RESPONSE #100
     SetInterrupt(FALSE)

@@ -1,63 +1,63 @@
 /// extend and/or replace whole vanilla dialogues and parts thereof ///
 
-COMPILE ~ImprovedAnvil/resources/dlg/cespfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/cespfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/crom.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/crom.d~
   USING ~%LANGUAGE%crom.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/cespy.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/cespy.d~
   USING ~%LANGUAGE%crom.tra~
         ~%LANGUAGE%cespy.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/DRSHSP01.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/DRSHSP01.d~
   USING ~%LANGUAGE%drshsp.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/multig.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/multig.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/garrfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/garrfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/reirfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/reirfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/nalifix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/nalifix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/blacfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/blacfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/tannfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/tannfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/domtd.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/domtd.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/CEFALDOR.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/CEFALDOR.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/CECHALLE.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/CECHALLE.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/CECHALLE_dq.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/CECHALLE_dq.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/WISH25.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/WISH25.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/murcrag.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/murcrag.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/tolgfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/tolgfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/kruifix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/kruifix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/mgapfix.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/mgapfix.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/tanwiz1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/tanwiz1.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/shop03.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/shop03.d~
   USING ~%LANGUAGE%shop03.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/uddemon.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/uddemon.d~
   USING ~%LANGUAGE%uddemon.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/trcut07.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/trcut07.d~
 
-COMPILE ~ImprovedAnvil/resources/dlg/uhrang01.d~ USING ~%LANGUAGE%druidq.tra~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/uhrang01.d~ USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/corneil.d~ USING ~%LANGUAGE%druidq.tra~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/corneil.d~ USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ppdradee.d~ USING ~%LANGUAGE%druidq.tra~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ppdradee.d~ USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ppdra2.d~ USING ~%LANGUAGE%druidq.tra~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ppdra2.d~ USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ppsaem3.d~ USING ~%LANGUAGE%druidq.tra~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ppsaem3.d~ USING ~%LANGUAGE%druidq.tra~

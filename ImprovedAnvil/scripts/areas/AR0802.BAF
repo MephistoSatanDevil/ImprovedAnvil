@@ -36,7 +36,7 @@ THEN
 END
 
 IF
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("Iacreature","AR0802",1)
   Global("Iaorcushostile","AR0802",1)
   Global("Iaexit2","AR0802",0)
@@ -65,7 +65,7 @@ END
 IF
    Global("Iacreature","AR0802",1)
    Global("Iaorcushostile","AR0802",1)
-   GlobalGT("Chapter","GLOBAL",5)
+   GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
    Global("Iaexit3","AR0802",0)
    Global("Iaskelos","AR0802",2)
    CombatCounter(0)
@@ -81,7 +81,7 @@ END
 IF
    Global("Iacreature","AR0802",1)
    Global("Iaorcushostile","AR0802",1)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
    Global("Iaexit3","AR0802",0)
    Global("Iaskelos","AR0802",2)
    CombatCounter(0)

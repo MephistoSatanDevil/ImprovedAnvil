@@ -203,7 +203,7 @@ IF
   InMyArea(Player1)
   OR(3)
    Alignment(Player1,MASK_EVIL)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
    Global("Iap1notgood","GLOBAL",1)
 THEN
   RESPONSE #100

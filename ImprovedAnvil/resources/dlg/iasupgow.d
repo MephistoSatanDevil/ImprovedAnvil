@@ -41,8 +41,8 @@ IF ~Global("Iasupgowsent","AR3011",0) Global("Iasupgowtalk","AR3011",0) Global("
   SAY @3563
   IF ~~ THEN REPLY @3564 GOTO 9
   IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) XPLT(Player1,4200000)~ THEN REPLY @3565 GOTO 10
-  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalGT("Chapter","GLOBAL",5) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 12
-  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalLT("Chapter","GLOBAL",6) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 29
+  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 12
+  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 29
   IF ~Alignment(Player1,MASK_EVIL)~ THEN REPLY @3565 GOTO 13
   IF ~!Alignment(Player1,MASK_EVIL) Global("Iap1notgood","GLOBAL",1)~ THEN REPLY @3568 GOTO 31
 END
@@ -51,8 +51,8 @@ IF ~Global("Iasupgowsent","AR3011",0) Global("Iasupgowtalk","AR3011",0) Global("
   SAY @3566
   IF ~~ THEN REPLY @3567 GOTO 11
   IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) XPLT(Player1,4200000)~ THEN REPLY @3568 GOTO 10
-  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalGT("Chapter","GLOBAL",5) XPGT(Player1,4199999)~ THEN REPLY @3568 GOTO 12
-  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalLT("Chapter","GLOBAL",6) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 29
+  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) XPGT(Player1,4199999)~ THEN REPLY @3568 GOTO 12
+  IF ~!Alignment(Player1,MASK_EVIL) !Global("Iap1notgood","GLOBAL",1) GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%) XPGT(Player1,4199999)~ THEN REPLY @3565 GOTO 29
   IF ~Alignment(Player1,MASK_EVIL)~ THEN REPLY @3568 GOTO 13
   IF ~!Alignment(Player1,MASK_EVIL) Global("Iap1notgood","GLOBAL",1)~ THEN REPLY @3568 GOTO 31
 END
@@ -126,7 +126,7 @@ IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) XPLT(Player1
   IF ~~ THEN REPLY @3587 EXIT
 END
 
-IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalLT("Chapter","GLOBAL",6) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 30
+IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 30
   SAY @3586
   IF ~~ THEN REPLY @3597 GOTO 4
   IF ~Global("Iasupgowtrick","AR3011",0)~ THEN REPLY @3589 DO ~SetGlobal("Iasupgowtrick","AR3011",1)~ GOTO 22
@@ -144,12 +144,12 @@ IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) Global("Iasu
   IF ~~ THEN DO ~SetGlobal("Iasupgowtrick","AR3011",2)~ EXIT
 END
 
-IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalGT("Chapter","GLOBAL",5) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 24
+IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 24
   SAY @3588
   IF ~~ THEN GOTO 25
 END
 
-IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalGT("Chapter","GLOBAL",5) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 25
+IF ~Global("Iasupgowsent","AR3011",0) !Alignment(Player1,MASK_EVIL) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) XPGT(Player1,4199999) Global("Iasupgowtalk","AR3011",1) Global("Iasupgowattack","AR3011",0)~ THEN BEGIN 25
   SAY @3595
   IF ~~ THEN REPLY @3577 DO ~SetGlobal("Iaaskedhow","AR3011",1)~ GOTO 18
   IF ~Global("Iasupgowtrick","AR3011",0)~ THEN REPLY @3591 GOTO 4

@@ -49,7 +49,7 @@ END
 IF
   Global("Prep","LOCALS",1)
   Global("Iadifficulty","LOCALS",0)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     SetGlobal("Iadifficulty","LOCALS",1)
@@ -59,7 +59,7 @@ END
 IF
   Global("Prep","LOCALS",1)
   Global("Iadifficulty","LOCALS",0)
-  GlobalLT("Chapter","GLOBAL",8)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 THEN
   RESPONSE #100
     SetGlobal("Iadifficulty","LOCALS",1)
@@ -526,7 +526,7 @@ IF
   !GlobalTimerNotExpired("Iaspell","LOCALS")
   !GlobalTimerNotExpired("Iafire","LOCALS")
   RandomNumGT(6,3)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #25
     SetGlobalTimer("Iafire","LOCALS",6)
@@ -550,7 +550,7 @@ IF
   !GlobalTimerNotExpired("Iaspell","LOCALS")
   !GlobalTimerNotExpired("Iafire","LOCALS")
   RandomNumGT(6,3)
-  GlobalLT("Chapter","GLOBAL",8)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 THEN
   RESPONSE #50
     SetGlobalTimer("Iafire","LOCALS",12)

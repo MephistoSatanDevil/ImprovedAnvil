@@ -728,7 +728,7 @@ IF
   Detect([PC])
   Global("Iatreasure","LOCALS",0)
   XPLT(Player1,2350000)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("Iatreasure","LOCALS",1)

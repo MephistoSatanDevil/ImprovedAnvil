@@ -24,7 +24,7 @@ END
 IF
   InMyArea(Player1)
   Global("Iaustnatha","AR2100",0)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 THEN
   RESPONSE #100
     SetGlobal("Iaustnatha","AR2100",1)

@@ -1,7 +1,7 @@
 IF
   PartyHasItem("S!misc47")
   Global("Iaoldsquijob","GLOBAL",1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Clicked([ANYONE])
   Range(LastTrigger,10)
   Global("Iapcastts","GLOBAL",0)
@@ -14,7 +14,7 @@ END
 IF
   OR(3)
    !PartyHasItem("S!misc47")
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
    GlobalLT("Iaoldsquijob","GLOBAL",1)
   Clicked([ANYONE])
   Range(LastTrigger,10)

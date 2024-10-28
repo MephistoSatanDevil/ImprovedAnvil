@@ -18,7 +18,7 @@ END
 IF
   Global("Iatimemactive","AR0411",2)
   Global("Iatimemfspawn","AR0411",0)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Clicked([ANYONE])
   Range(LastTrigger,10)
   !GlobalTimerNotExpired("Iatimeclick","AR0411")
@@ -34,7 +34,7 @@ IF
   Global("Iatimemactive","AR0411",2)
   Global("Iatimemaspawn","AR0411",0)
   Global("Iatimemfspawn","AR0411",2)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Clicked([ANYONE])
   Range(LastTrigger,10)
   !GlobalTimerNotExpired("Iatimeclick","AR0411")
@@ -47,7 +47,7 @@ END
 
 IF
   Global("Iatimemactive","AR0411",1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Clicked([ANYONE])
   Range(LastTrigger,10)
   !GlobalTimerNotExpired("Iatimeclick","AR0411")
@@ -64,7 +64,7 @@ IF
   !Class(Player1,THIEF_ALL)
   OR(2)
    Global("Iatimemactive","AR0411",0)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
   Clicked([ANYONE])
   Range(LastTrigger,10)
   !GlobalTimerNotExpired("Iatimeclick","AR0411")

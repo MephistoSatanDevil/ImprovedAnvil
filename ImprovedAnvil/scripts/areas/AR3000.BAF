@@ -40,7 +40,7 @@ IF
    Global("Iajdplot","GLOBAL",2)
    Global("Iajdstalk","GLOBAL",1)
    GlobalTimerNotExpired("Iajdstime","GLOBAL")
-   GlobalLT("Chapter","GLOBAL",8)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 THEN
    RESPONSE #100
       SetGlobal("Iacreature","AR3000",2)
@@ -55,7 +55,7 @@ IF
    Global("Iajdplot","GLOBAL",2)
    Global("Iajdstalk","GLOBAL",1)
    GlobalTimerNotExpired("Iajdstime","GLOBAL")
-   GlobalGT("Chapter","GLOBAL",7)
+   GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
    RESPONSE #100
       SetGlobal("Iacreature","AR3000",2)
@@ -154,7 +154,7 @@ END
 IF
   Global("Iaexit2","AR3000",2)
   Global("Iajdfled","GLOBAL",0)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     SetGlobal("Iajdfled","GLOBAL",1)

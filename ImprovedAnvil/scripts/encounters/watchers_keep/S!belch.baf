@@ -58,7 +58,7 @@ END
 IF
   Global("Iabalor01","LOCALS",1)
   Global("Iadifficulty","LOCALS",0)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     SetGlobal("Iadifficulty","LOCALS",1)
@@ -71,7 +71,7 @@ END
 IF
   Global("Iabalor01","LOCALS",1)
   Global("Iadifficulty","LOCALS",0)
-  GlobalLT("Chapter","GLOBAL",8)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 THEN
   RESPONSE #100
     SetGlobal("Iadifficulty","LOCALS",1)
@@ -993,7 +993,7 @@ IF
   Range(LastSeenBy(Myself),7)
   !CheckStat(LastSeenBy(Myself),4,SCRIPTINGSTATE7)
   CheckStatLT(LastSeenBy(Myself),75,RESISTFIRE)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
 THEN
   RESPONSE #100
     SetGlobalTimer("Iasunf","LOCALS",12)
@@ -1009,7 +1009,7 @@ IF
   Range(LastSeenBy(Myself),7)
   !CheckStat(LastSeenBy(Myself),4,SCRIPTINGSTATE7)
   CheckStatLT(LastSeenBy(Myself),75,RESISTFIRE)
-  GlobalLT("Chapter","GLOBAL",8)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 THEN
   RESPONSE #100
     SetGlobalTimer("Iasunf","LOCALS",18)

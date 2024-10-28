@@ -1246,7 +1246,7 @@ IF
    HasItemEquiped("S!staf07",Player6)
   OR(3)
    Global("Iastaf07forged","GLOBAL",0)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
    GlobalLT("Iarynnplace","GLOBAL",5)
 THEN
   RESPONSE #100

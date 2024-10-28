@@ -106,7 +106,7 @@ END
 IF
   Allegiance(Myself,ENEMY)
   Global("Iavecnaplace","GLOBAL",4)
-  GlobalLT("Chapter","GLOBAL",6)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
 THEN
   RESPONSE #100
     SetGlobal("Iavecnaplace","GLOBAL",3)

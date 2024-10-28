@@ -7,7 +7,7 @@ COPY_EXISTING ~BALDUR.BCS~ ~override~
       REPLACE_TEXTUALLY ~GlobalTimerExpired("KPTaxTime","GLOBAL")~ ~GlobalTimerExpired("KPTaxTime","GLOBAL") GlobalLT("Iakptax","GLOBAL",20)~
       REPLACE_TEXTUALLY ~SetGlobalTimer("KPTaxTime","GLOBAL",SEVEN_DAYS)~ ~SetGlobalTimer("KPTaxTime","GLOBAL",SEVEN_DAYS) IncrementGlobal("Iakptax","GLOBAL",1)~
       REPLACE_TEXTUALLY ~GlobalTimerExpired("PGThievesReturn","GLOBAL")~ ~GlobalTimerExpired("PGThievesReturn","GLOBAL") GlobalLT("Iathiefmoney","GLOBAL",20)~
-      REPLACE_TEXTUALLY ~!Global("Chapter","GLOBAL",7)~ ~~
+      REPLACE_TEXTUALLY ~!Global("Chapter","GLOBAL",%bg2_chapter_7%)~ ~~
       REPLACE_TEXTUALLY ~Global("GreatDruid","GLOBAL",0)~ ~Global("GreatDruid","GLOBAL",0) Global("IADruidPlot","GLOBAL",0)~
       REPLACE_TEXTUALLY ~CreateCreatureObject("\([a-zA-Z0-9]+\)","bdoffscr",0,0,0)~ ~CreateCreatureObject("\1",Player1,0,0,0)~
   END
@@ -590,7 +590,7 @@ END
 >>>>>>>>
 
 COPY_EXISTING ~C6ARKAN.BCS~ ~override/C6ARKAN.bcs~
-  REPLACE_BCS_BLOCK ~.../inlined/old.baf~ ~.../inlined/new.baf~
+  REPLACE_BCS_BLOCK EVALUATE_BUFFER ~.../inlined/old.baf~ ~.../inlined/new.baf~
   BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING ~ROCK.bcs~ ~override/ROCK.bcs~

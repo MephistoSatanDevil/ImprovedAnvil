@@ -130,7 +130,7 @@ END
 IF
   Global("GypsyJob","GLOBAL",14)
   Global("Iaoldonespawn","AR0411",0)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Class(Player1,MAGE_ALL)
   !Class(Player1,FIGHTER_ALL)
   !Class(Player1,CLERIC_ALL)
@@ -147,7 +147,7 @@ END
 
 IF
   Global("Iaoldonespawn","AR0411",1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   InMyArea(Player1)
   Class(Player1,MAGE_ALL)
   !Class(Player1,FIGHTER_ALL)
@@ -225,7 +225,7 @@ IF
   Global("Iaoldonejob","GLOBAL",5)
   Global("Iamoridjob","GLOBAL",1)
   Global("Iamoridcame","AR0411",0)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 THEN
   RESPONSE #100
     SetGlobal("Iamoridcame","AR0411",1)

@@ -2,7 +2,7 @@
 
 IF
   InMyArea(Player1)
-  Global("Chapter","GLOBAL",3)
+  Global("Chapter","GLOBAL",%bg2_chapter_3%)
   Global("AranJob","GLOBAL",3)
   Global("LassalVampires","GLOBAL",3)
   OR(2)
@@ -17,7 +17,7 @@ END
 
 IF
   InMyArea(Player1)
-  Global("Chapter","GLOBAL",6)
+  Global("Chapter","GLOBAL",%bg2_chapter_6%)
   Global("IADruidPlot","GLOBAL",9)
   Global("IAAmbushFirstTalk","GLOBAL",0)
   Global("IaDruMess02","AR0300",0)
@@ -45,7 +45,7 @@ IF
   GlobalTimerExpired("Ialimakspawn","GLOBAL")
   InMyArea(Player1)
   Class(Player1,MAGE_ALL)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
 THEN
   RESPONSE #100
     SetGlobal("Ialimak","AR0300",2)
@@ -188,7 +188,7 @@ END
 IF
   GlobalTimerExpired("KPPlotTime","GLOBAL")
   InMyArea(Player1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("KeepPlot","GLOBAL",4)
   InParty("Nalia")
   Global("NaliaIsaeaPlotDone","GLOBAL",1)
@@ -202,7 +202,7 @@ END
 IF
   GlobalTimerExpired("KPPlotTime","GLOBAL")
   InMyArea(Player1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("KeepPlot","GLOBAL",4)
   !InParty("Nalia")
   Global("KPRunnerSpawn","GLOBAL",0)
@@ -215,7 +215,7 @@ END
 IF
   GlobalTimerExpired("KPPlotTime","GLOBAL")
   InMyArea(Player1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("KeepPlot","GLOBAL",7)
   Global("KPRunnerSpawn","GLOBAL",1)
 THEN
@@ -227,7 +227,7 @@ END
 IF
   GlobalTimerExpired("KPPlotTime","GLOBAL")
   InMyArea(Player1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   Global("KeepPlot","GLOBAL",8)
   Global("KPRunnerSpawn","GLOBAL",2)
 THEN

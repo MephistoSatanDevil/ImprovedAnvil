@@ -1,6 +1,6 @@
 IF
   CheckStat(Myself,2,SCRIPTINGSTATE3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   GlobalGT("Iasquirjob","GLOBAL",4)
   Global("Talkedto","LOCALS",0)
   General(Myself,ANIMAL)
@@ -25,7 +25,7 @@ END
 
 IF
   CheckStat(Myself,2,SCRIPTINGSTATE3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   GlobalGT("Iasquirjob","GLOBAL",4)
   Global("Talkedto","LOCALS",0)
   General(Myself,ANIMAL)
@@ -50,7 +50,7 @@ END
 
 IF
   CheckStat(Myself,2,SCRIPTINGSTATE3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   GlobalGT("Iasquirjob","GLOBAL",4)
   Global("Talkedto","LOCALS",0)
   General(Myself,ANIMAL)
@@ -75,7 +75,7 @@ END
 
 IF
   CheckStat(Myself,2,SCRIPTINGSTATE3)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   GlobalGT("Iasquirjob","GLOBAL",4)
   Global("Talkedto","LOCALS",0)
   General(Myself,ANIMAL)

@@ -88,5 +88,5 @@ END
 >>>>>>>>
 
 COPY_EXISTING ~OH4100.BCS~ ~override/OH4100.BCS~
-  REPLACE_BCS_BLOCK ~.../inlined/old-oh4100.baf~ ~.../inlined/new-oh4100.baf~
+  REPLACE_BCS_BLOCK EVALUATE_BUFFER ~.../inlined/old-oh4100.baf~ ~.../inlined/new-oh4100.baf~
   BUT_ONLY

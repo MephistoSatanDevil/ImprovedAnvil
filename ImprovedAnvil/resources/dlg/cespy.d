@@ -313,7 +313,7 @@ APPEND BOTSMITH
 
     IF ~~ THEN BEGIN flail
     SAY @2007 IF ~~ THEN REPLY @2 GOTO 4
-    IF ~Class(Player1,RANGER_ALL) !Class(Player1,CLERIC_ALL) Global("Iaflailplace","GLOBAL",3) GlobalGT("Chapter","GLOBAL",5) NumItemsPartyGT("blun32",1) PartyHasItem("blun24") PartyHasItem("waflail") NumItemsPartyGT("misc42",5) NumItemsPartyGT("miscal",9)
+    IF ~Class(Player1,RANGER_ALL) !Class(Player1,CLERIC_ALL) Global("Iaflailplace","GLOBAL",3) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) NumItemsPartyGT("blun32",1) PartyHasItem("blun24") PartyHasItem("waflail") NumItemsPartyGT("misc42",5) NumItemsPartyGT("miscal",9)
         PartyGoldGT(149999)~
       THEN REPLY @3
       DO ~TakePartyGold(150000)      DestroyGold(150000)
@@ -638,7 +638,7 @@ APPEND BOTSMITH
 
   IF ~~ THEN BEGIN bard
     SAY @2025 IF ~~ THEN REPLY @2 GOTO 4
-    IF ~PartyHasItem("chan10") PartyHasItem("chan15") PartyHasItem("chan16") Dead("dragblac") GlobalGT("Chapter","GLOBAL",5) PartyHasItem("S!misc06") NumItemsPartyGT("S!misc01",1) PartyHasItem("S!misc02")
+    IF ~PartyHasItem("chan10") PartyHasItem("chan15") PartyHasItem("chan16") Dead("dragblac") GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) PartyHasItem("S!misc06") NumItemsPartyGT("S!misc01",1) PartyHasItem("S!misc02")
         PartyGoldGT(74999)~
       THEN REPLY @3
       DO ~TakePartyGold(75000)      DestroyGold(75000)
@@ -1639,7 +1639,7 @@ APPEND BOTSMITH
 
   IF ~~ THEN BEGIN staff2
     SAY @689 IF ~~ THEN REPLY @2 GOTO 4
-    IF ~GlobalGT("Chapter","GLOBAL",5) Global("Iarynnplace","GLOBAL",5) Global("Iastaf07forged","GLOBAL",0) PartyHasItem("S!staf06") PartyHasItem("staf20") NumItemsPartyGT("dwdust",1) PartyHasItem("S!misc02") PartyHasItem("S!scrl07") PartyHasItem("scrlb2")
+    IF ~GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) Global("Iarynnplace","GLOBAL",5) Global("Iastaf07forged","GLOBAL",0) PartyHasItem("S!staf06") PartyHasItem("staf20") NumItemsPartyGT("dwdust",1) PartyHasItem("S!misc02") PartyHasItem("S!scrl07") PartyHasItem("scrlb2")
         PartyGoldGT(74999)~
       THEN REPLY @3
       DO ~TakePartyGold(75000)      DestroyGold(75000)
@@ -1657,7 +1657,7 @@ APPEND BOTSMITH
 
   IF ~~ THEN BEGIN arcane
     SAY @691 IF ~~ THEN REPLY @2 GOTO 4
-    IF ~GlobalGT("Chapter","GLOBAL",5) GlobalGT("Iaoldonejob","GLOBAL",3) Class(Player1,MAGE_ALL) Kit(Player1,MAGESCHOOL_NECROMANCER) Dead("S!BOLICH") PartyHasItem("S!clck04") PartyHasItem("S!clck06") PartyHasItem("S!clck02")
+    IF ~GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) GlobalGT("Iaoldonejob","GLOBAL",3) Class(Player1,MAGE_ALL) Kit(Player1,MAGESCHOOL_NECROMANCER) Dead("S!BOLICH") PartyHasItem("S!clck04") PartyHasItem("S!clck06") PartyHasItem("S!clck02")
         PartyGoldGT(59999)~
       THEN REPLY @3
       DO ~TakePartyGold(60000)      DestroyGold(60000)
@@ -1670,7 +1670,7 @@ APPEND BOTSMITH
 
   IF ~~ THEN BEGIN scarlet
     SAY @693 IF ~~ THEN REPLY @2 GOTO 4
-    IF ~Global("Iahelm08forged","GLOBAL",0) GlobalGT("Chapter","GLOBAL",5) GlobalGT("Ialavokjob","GLOBAL",4) GlobalGT("Iaoldsquijob","GLOBAL",3) GlobalGT("Iasquirjob","GLOBAL",8) PartyHasItem("S!helm06") PartyHasItem("S!helm07") PartyHasItem("S!misc45")
+    IF ~Global("Iahelm08forged","GLOBAL",0) GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%) GlobalGT("Ialavokjob","GLOBAL",4) GlobalGT("Iaoldsquijob","GLOBAL",3) GlobalGT("Iasquirjob","GLOBAL",8) PartyHasItem("S!helm06") PartyHasItem("S!helm07") PartyHasItem("S!misc45")
         PartyGoldGT(39999)~
       THEN REPLY @3
       DO ~TakePartyGold(40000)      DestroyGold(40000)

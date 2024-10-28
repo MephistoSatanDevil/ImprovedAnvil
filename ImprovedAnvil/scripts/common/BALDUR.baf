@@ -696,8 +696,8 @@ END
 
 IF
   OR(2)
-    Global("Chapter","GLOBAL",2)
-    Global("Chapter","GLOBAL",3)
+    Global("Chapter","GLOBAL",%bg2_chapter_2%)
+    Global("Chapter","GLOBAL",%bg2_chapter_3%)
   Global("IADruidPlot","GLOBAL",2)
   GlobalGT("IADruidAnathNote","GLOBAL",0)
   GlobalGT("IADruidMerellaTalk","GLOBAL",0)
@@ -1353,7 +1353,7 @@ IF
    HasItemEquiped("S!staf07",Player6)
   OR(3)
    Global("Iastaf07forged","GLOBAL",0)
-   GlobalLT("Chapter","GLOBAL",6)
+   GlobalLT("Chapter","GLOBAL",%bg2_chapter_6%)
    GlobalLT("Iarynnplace","GLOBAL",5)
 THEN
   RESPONSE #100

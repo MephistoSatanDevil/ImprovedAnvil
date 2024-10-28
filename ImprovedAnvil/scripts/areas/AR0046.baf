@@ -1,7 +1,7 @@
 IF
   OnCreation()
   Global("RandomEncounters","GLOBAL",0)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("RandomEncounters","GLOBAL",1)
@@ -30,7 +30,7 @@ END
 IF
   OnCreation()
   Global("RandomEncounters","GLOBAL",1)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("RandomEncounters","GLOBAL",2)
@@ -58,7 +58,7 @@ END
 IF
   OnCreation()
   Global("RandomEncounters","GLOBAL",2)
-  GlobalLT("Chapter","GLOBAL",4)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("RandomEncounters","GLOBAL",3)
@@ -89,7 +89,7 @@ END
 IF
   OnCreation()
   Global("RandomEncounters","GLOBAL",3)
-  GlobalGT("Chapter","GLOBAL",4)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_4%)
 THEN
   RESPONSE #100
     SetGlobal("RandomEncounters","GLOBAL",4)

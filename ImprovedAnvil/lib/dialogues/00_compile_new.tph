@@ -1,337 +1,337 @@
 /// compile new dialogues ///
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadlord.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadlord.d~
   USING ~%LANGUAGE%demon.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iavlord.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iavlord.d~
   USING ~%LANGUAGE%vlord.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iademgod.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iademgod.d~
   USING ~%LANGUAGE%dgod.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadryad.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadryad.d~
   USING ~%LANGUAGE%dryad.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaslagol.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaslagol.d~
   USING ~%LANGUAGE%golem.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaspideq.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaspideq.d~
   USING ~%LANGUAGE%queen.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iapalad.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iapalad.d~
   USING ~%LANGUAGE%palad.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iabeggar.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iabeggar.d~
   USING ~%LANGUAGE%beggar.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaorder.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaorder.d~
   USING ~%LANGUAGE%order.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ialady1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ialady1.d~
   USING ~%LANGUAGE%lady1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ialady2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ialady2.d~
   USING ~%LANGUAGE%lady2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagypsy.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagypsy.d~
   USING ~%LANGUAGE%gypsy.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iapasha.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iapasha.d~
   USING ~%LANGUAGE%pasha.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaggod.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaggod.d~
   USING ~%LANGUAGE%gypgod.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iafsdrag.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iafsdrag.d~
   USING ~%LANGUAGE%dragon.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadelon1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadelon1.d~
   USING ~%LANGUAGE%delon1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadelon2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadelon2.d~
   USING ~%LANGUAGE%delon2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadelon3.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadelon3.d~
   USING ~%LANGUAGE%delon3.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadelon4.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadelon4.d~
   USING ~%LANGUAGE%delon4.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagirl1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagirl1.d~
   USING ~%LANGUAGE%girl1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaroshan.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaroshan.d~
   USING ~%LANGUAGE%roshan.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iarosha2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iarosha2.d~
   USING ~%LANGUAGE%rosha2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaknight.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaknight.d~
   USING ~%LANGUAGE%knight.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaknigh2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaknigh2.d~
   USING ~%LANGUAGE%knigh2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaknigh3.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaknigh3.d~
   USING ~%LANGUAGE%knigh3.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaauriel.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaauriel.d~
   USING ~%LANGUAGE%auriel.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaenchan.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaenchan.d~
   USING ~%LANGUAGE%enchan.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaillusi.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaillusi.d~
   USING ~%LANGUAGE%illusi.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iakiller.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iakiller.d~
   USING ~%LANGUAGE%killer.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadopple.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadopple.d~
   USING ~%LANGUAGE%dopple.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iarunef.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iarunef.d~
   USING ~%LANGUAGE%runef.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadwarf.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadwarf.d~
   USING ~%LANGUAGE%dwarf.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaefree2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaefree2.d~
   USING ~%LANGUAGE%efreet.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ialimak.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ialimak.d~
   USING ~%LANGUAGE%limak.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaamarie.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaamarie.d~
   USING ~%LANGUAGE%amarie.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaamari2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaamari2.d~
   USING ~%LANGUAGE%amari2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaammar.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaammar.d~
   USING ~%LANGUAGE%ammar.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaammar2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaammar2.d~
   USING ~%LANGUAGE%ammar2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iakpglai.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iakpglai.d~
   USING ~%LANGUAGE%glaica.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iarunewa.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iarunewa.d~
   USING ~%LANGUAGE%runewa.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iarakp.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iarakp.d~
   USING ~%LANGUAGE%rakp.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iapasha2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iapasha2.d~
   USING ~%LANGUAGE%pasha2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iafound.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iafound.d~
   USING ~%LANGUAGE%found.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iatarnor.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iatarnor.d~
   USING ~%LANGUAGE%tarnor.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamessen.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamessen.d~
   USING ~%LANGUAGE%messen.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaorcus.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaorcus.d~
   USING ~%LANGUAGE%orcus.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaancest.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaancest.d~
   USING ~%LANGUAGE%ancest.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaspy2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaspy2.d~
   USING ~%LANGUAGE%spy2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iacghost.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iacghost.d~
   USING ~%LANGUAGE%ghost.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iacghos2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iacghos2.d~
   USING ~%LANGUAGE%ghost2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadracol.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadracol.d~
   USING ~%LANGUAGE%dracol.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasamia.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasamia.d~
   USING ~%LANGUAGE%samia.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasupgow.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasupgow.d~
   USING ~%LANGUAGE%supgow.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadraggr.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadraggr.d~
   USING ~%LANGUAGE%draggr.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iashados.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iashados.d~
   USING ~%LANGUAGE%shados.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaswanme.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaswanme.d~
   USING ~%LANGUAGE%swanme.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ialooker.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ialooker.d~
   USING ~%LANGUAGE%looker.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaaurie2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaaurie2.d~
   USING ~%LANGUAGE%aurie2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamalbar.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamalbar.d~
   USING ~%LANGUAGE%malbar.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/ialooke2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/ialooke2.d~
   USING ~%LANGUAGE%looke2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaaurie3.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaaurie3.d~
   USING ~%LANGUAGE%aurie3.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iacangua.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iacangua.d~
   USING ~%LANGUAGE%cangua.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iabelgua.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iabelgua.d~
   USING ~%LANGUAGE%belgua.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iabolich.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iabolich.d~
   USING ~%LANGUAGE%bolich.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaspy3.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaspy3.d~
   USING ~%LANGUAGE%spy3.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaanima1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaanima1.d~
   USING ~%LANGUAGE%anima1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaoldone.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaoldone.d~
   USING ~%LANGUAGE%oldone.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagrlch6.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagrlch6.d~
   USING ~%LANGUAGE%grlch6.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaoldon2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaoldon2.d~
   USING ~%LANGUAGE%oldon2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamorid1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamorid1.d~
   USING ~%LANGUAGE%morid1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagrlch8.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagrlch8.d~
   USING ~%LANGUAGE%grlch8.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasqui01.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasqui01.d~
   USING ~%LANGUAGE%squi01.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasqui02.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasqui02.d~
   USING ~%LANGUAGE%squi02.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasqui03.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasqui03.d~
   USING ~%LANGUAGE%squi03.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaacton.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaacton.d~
   USING ~%LANGUAGE%acton.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasqui04.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasqui04.d~
   USING ~%LANGUAGE%squi04.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaavatar.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaavatar.d~
   USING ~%LANGUAGE%avatar.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iademmag.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iademmag.d~
   USING ~%LANGUAGE%demmag.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaacton2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaacton2.d~
   USING ~%LANGUAGE%acton2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamorid2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamorid2.d~
   USING ~%LANGUAGE%morid2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iatimemf.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iatimemf.d~
   USING ~%LANGUAGE%timemf.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iatimema.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iatimema.d~
   USING ~%LANGUAGE%timema.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iayoungb.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iayoungb.d~
   USING ~%LANGUAGE%youngb.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iayoungl.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iayoungl.d~
   USING ~%LANGUAGE%youngl.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaforce1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaforce1.d~
   USING ~%LANGUAGE%force1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaforce2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaforce2.d~
   USING ~%LANGUAGE%force2.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaspy4.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaspy4.d~
   USING ~%LANGUAGE%spy4.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaswanfa.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaswanfa.d~
   USING ~%LANGUAGE%swanfa.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iarngspi.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iarngspi.d~
   USING ~%LANGUAGE%rngspi.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iasqui05.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iasqui05.d~
   USING ~%LANGUAGE%squi05.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamircre.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamircre.d~
   USING ~%LANGUAGE%mircre.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaponcre.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaponcre.d~
   USING ~%LANGUAGE%poncre.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iamom.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iamom.d~
   USING ~%LANGUAGE%mom.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iawetlan.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iawetlan.d~
   USING ~%LANGUAGE%wetlan.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iatanncr.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iatanncr.d~
   USING ~%LANGUAGE%tanncr.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iahelma1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iahelma1.d~
   USING ~%LANGUAGE%helma1.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/tfweagua.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/tfweagua.d~
   USING ~%LANGUAGE%thefour.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaiguard.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaiguard.d~
   USING ~%LANGUAGE%iaiguard.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iavert01.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iavert01.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagdru01.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagdru01.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagdru02.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagdru02.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagdru03.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagdru03.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iagdru04.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iagdru04.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iatslead.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iatslead.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadrad.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadrad.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaferr01.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaferr01.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaferr02.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaferr02.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadracof.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadracof.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadrudiv.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadrudiv.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadrume1.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadrume1.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iadrume2.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iadrume2.d~
   USING ~%LANGUAGE%druidq.tra~
 
-COMPILE ~ImprovedAnvil/resources/dlg/iaspiede.d~
+COMPILE EVALUATE_BUFFER ~ImprovedAnvil/resources/dlg/iaspiede.d~
   USING ~%LANGUAGE%druidq.tra~

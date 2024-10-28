@@ -208,7 +208,7 @@ END
 IF
   Global("Iasquirjob","GLOBAL",6)
   Global("Iaregions","AR0500",1)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   PartyHasItem("DWDUST")
   InMyArea(Player1)
 THEN
@@ -220,7 +220,7 @@ END
 IF
   Global("Iasquirjob","GLOBAL",6)
   Global("Iaregions","AR0500",2)
-  GlobalGT("Chapter","GLOBAL",5)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_5%)
   !PartyHasItem("DWDUST")
   InMyArea(Player1)
 THEN

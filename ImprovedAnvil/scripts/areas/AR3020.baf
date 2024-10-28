@@ -43,7 +43,7 @@ IF
   InMyArea(Player1)
   Global("DemogorgonChange","GLOBAL",1)
   Global("IaInitBombers","AR3020",1)
-  GlobalGT("Chapter","GLOBAL",7)
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)
   GlobalTimerExpired("IaBombers","AR3020")
 THEN
 	RESPONSE #60
@@ -67,7 +67,7 @@ IF
   InMyArea(Player1)
   Global("DemogorgonChange","GLOBAL",1)
   Global("IaInitBombers","AR3020",1)
-  GlobalLT("Chapter","GLOBAL",8)
+  GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
   GlobalTimerExpired("IaBombers","AR3020")
 THEN
 	RESPONSE #50
